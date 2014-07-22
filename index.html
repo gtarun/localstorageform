@@ -1,1 +1,141 @@
-var formToControl = "profile-form";
+<!--
+ Created with Webformgenerator by easyclick.ch
+ www.easyclick.ch
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="css/uniform.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tools.js"></script>
+    <script type="text/javascript" src="js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<div class="TTWForm-container">
+
+
+     <form action="process_form.php" class="TTWForm ui-sortable-disabled" method="post"
+     novalidate="">
+
+
+          <div id="field1-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+               <label for="field1">
+                    Name
+               </label>
+               <input type="text" name="Name" id="field1" required="required">
+          </div>
+
+
+          <div id="field6-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+               <label for="field6">
+                    Password
+               </label>
+               <input type="password" name="password" id="field6" required="required">
+          </div>
+
+
+          <div id="field2-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+               <label for="field2">
+                    Text Area
+               </label>
+               <textarea rows="5" cols="20" name="field2" id="field2" required="required"></textarea>
+          </div>
+
+
+          <div id="field3-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+               <label for="field3">
+                    Select Box
+               </label>
+               <select name="selectbox" id="field3" required="required">
+                    <option id="field3-1" value="Option 1">
+                         Option 1
+                    </option>
+                    <option id="field3-2" value="Option 2">
+                         Option 2
+                    </option>
+                    <option id="field3-3" value="Option 3">
+                         Option 3
+                    </option>
+               </select>
+          </div>
+
+
+          <div id="field4-container" class="field f_100 radio-group required ui-resizable-disabled ui-state-disabled">
+               <label for="field4-1">
+                    Radio Buttons
+               </label>
+
+
+               <div class="option clearfix">
+                    <input type="radio" name="radiobutton" id="field4-1" value="Option 1">
+                    <span class="option-title">
+                         Option 1
+                    </span>
+               </div>
+
+
+               <div class="option clearfix">
+                    <input type="radio" name="radiobutton" id="field4-2" value="Option 2">
+                    <span class="option-title">
+                         Option 2
+                    </span>
+               </div>
+
+
+               <div class="option clearfix">
+                    <input type="radio" name="radiobutton" id="field4-3" value="Option 3">
+                    <span class="option-title">
+                         Option 3
+                    </span>
+               </div>
+          </div>
+
+
+          <div id="field5-container" class="field f_100 checkbox-group required ui-resizable-disabled ui-state-disabled">
+               <label for="field5-1">
+                    Checkboxes
+               </label>
+
+
+               <div class="option clearfix">
+                    <input type="checkbox" name="checkbox[]" id="field5-1" value="Option 1">
+                    <span class="option-title">
+                         Option 1
+                    </span>
+                    <br>
+               </div>
+
+
+               <div class="option clearfix">
+                    <input type="checkbox" name="checkbox[]" id="field5-2" value="Option 2">
+                    <span class="option-title">
+                         Option 2
+                    </span>
+                    <br>
+               </div>
+
+
+               <div class="option clearfix">
+                    <input type="checkbox" name="checkbox[]" id="field5-3" value="Option 3">
+                    <span class="option-title">
+                         Option 3
+                    </span>
+                    <br>
+               </div>
+          </div>
+
+
+          <div id="form-submit" class="field f_100 clearfix submit">
+               <input type="submit" value="Submit">
+          </div>
+     </form>
+</div>
+
+</body>
+</html>
